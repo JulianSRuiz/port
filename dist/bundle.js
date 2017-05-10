@@ -53,49 +53,49 @@
 	
 	__webpack_require__(/*! ./assets/css/stylesheet.css */ 10);
 	
-	var _angular = __webpack_require__(/*! angular */ 13);
+	var _angular = __webpack_require__(/*! angular */ 12);
 	
 	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _angularUiRouter = __webpack_require__(/*! angular-ui-router */ 15);
+	var _angularUiRouter = __webpack_require__(/*! angular-ui-router */ 14);
 	
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	var _home = __webpack_require__(/*! ./views/home.html */ 16);
+	var _home = __webpack_require__(/*! ./views/home.html */ 15);
 	
 	var _home2 = _interopRequireDefault(_home);
 	
-	var _portfolio = __webpack_require__(/*! ./views/portfolio.html */ 17);
+	var _portfolio = __webpack_require__(/*! ./views/portfolio.html */ 16);
 	
 	var _portfolio2 = _interopRequireDefault(_portfolio);
 	
-	var _contact = __webpack_require__(/*! ./views/contact.html */ 18);
+	var _contact = __webpack_require__(/*! ./views/contact.html */ 17);
 	
 	var _contact2 = _interopRequireDefault(_contact);
 	
-	var _about = __webpack_require__(/*! ./views/about.html */ 19);
+	var _about = __webpack_require__(/*! ./views/about.html */ 18);
 	
 	var _about2 = _interopRequireDefault(_about);
 	
-	var _resume = __webpack_require__(/*! ./views/resume.html */ 20);
+	var _resume = __webpack_require__(/*! ./views/resume.html */ 19);
 	
 	var _resume2 = _interopRequireDefault(_resume);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(/*! ./img/jr2.jpg */ 21); //assets
+	var jr = __webpack_require__(/*! ./img/jr2.jpg */ 20); //assets
 	
-	__webpack_require__(/*! ./img/32/social-011_linkedin.png */ 22);
-	__webpack_require__(/*! ./img/32/social-003_twitter.png */ 23);
-	__webpack_require__(/*! ./img/32/social-006_facebook.png */ 24);
-	__webpack_require__(/*! ./img/32/social-041_github.png */ 25);
-	__webpack_require__(/*! ./img/jables_home.png */ 26);
-	__webpack_require__(/*! ./img/julian_resume.pdf */ 27);
-	__webpack_require__(/*! ./img/jables_complete.png */ 28);
-	__webpack_require__(/*! ./img/alien_hunt.png */ 29);
-	__webpack_require__(/*! ./img/mountenus.png */ 30);
-	__webpack_require__(/*! ./img/vidmeo_mockups.png */ 31);
-	__webpack_require__(/*! ./img/indy.png */ 32);
+	var linkedIn = __webpack_require__(/*! ./img/32/social-011_linkedin.png */ 21);
+	var twitter = __webpack_require__(/*! ./img/32/social-003_twitter.png */ 22);
+	var fb = __webpack_require__(/*! ./img/32/social-006_facebook.png */ 23);
+	var github = __webpack_require__(/*! ./img/32/social-041_github.png */ 24);
+	var jables = __webpack_require__(/*! ./img/jables_home.png */ 25);
+	var resume = __webpack_require__(/*! ./img/julian_resume.pdf */ 26);
+	var jablesComplete = __webpack_require__(/*! ./img/jables_complete.png */ 27);
+	var alienHunt = __webpack_require__(/*! ./img/alien_hunt.png */ 28);
+	var mountenus = __webpack_require__(/*! ./img/mountenus.png */ 29);
+	var vidmeo = __webpack_require__(/*! ./img/vidmeo_mockups.png */ 30);
+	var indy = __webpack_require__(/*! ./img/indy.png */ 31);
 	
 	//css
 	
@@ -577,8 +577,7 @@
 
 
 /***/ },
-/* 12 */,
-/* 13 */
+/* 12 */
 /*!****************************!*\
   !*** ./~/angular/index.js ***!
   \****************************/
@@ -586,11 +585,11 @@
 
 	'use strict';
 	
-	__webpack_require__(/*! ./angular */ 14);
+	__webpack_require__(/*! ./angular */ 13);
 	module.exports = angular;
 
 /***/ },
-/* 14 */
+/* 13 */
 /*!******************************!*\
   !*** ./~/angular/angular.js ***!
   \******************************/
@@ -17981,7 +17980,7 @@
 	bindJQuery();publishExternalAPI(angular);angular.module("ngLocale",[],["$provide",function($provide){var PLURAL_CATEGORY={ZERO:"zero",ONE:"one",TWO:"two",FEW:"few",MANY:"many",OTHER:"other"};function getDecimals(n){n=n+'';var i=n.indexOf('.');return i==-1?0:n.length-i-1;}function getVF(n,opt_precision){var v=opt_precision;if(undefined===v){v=Math.min(getDecimals(n),3);}var base=Math.pow(10,v);var f=(n*base|0)%base;return{v:v,f:f};}$provide.value("$locale",{"DATETIME_FORMATS":{"AMPMS":["AM","PM"],"DAY":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"ERANAMES":["Before Christ","Anno Domini"],"ERAS":["BC","AD"],"FIRSTDAYOFWEEK":6,"MONTH":["January","February","March","April","May","June","July","August","September","October","November","December"],"SHORTDAY":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"SHORTMONTH":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"STANDALONEMONTH":["January","February","March","April","May","June","July","August","September","October","November","December"],"WEEKENDRANGE":[5,6],"fullDate":"EEEE, MMMM d, y","longDate":"MMMM d, y","medium":"MMM d, y h:mm:ss a","mediumDate":"MMM d, y","mediumTime":"h:mm:ss a","short":"M/d/yy h:mm a","shortDate":"M/d/yy","shortTime":"h:mm a"},"NUMBER_FORMATS":{"CURRENCY_SYM":"$","DECIMAL_SEP":".","GROUP_SEP":",","PATTERNS":[{"gSize":3,"lgSize":3,"maxFrac":3,"minFrac":0,"minInt":1,"negPre":"-","negSuf":"","posPre":"","posSuf":""},{"gSize":3,"lgSize":3,"maxFrac":2,"minFrac":2,"minInt":1,"negPre":'-\xA4',"negSuf":"","posPre":'\xA4',"posSuf":""}]},"id":"en-us","localeID":"en_US","pluralCat":function pluralCat(n,opt_precision){var i=n|0;var vf=getVF(n,opt_precision);if(i==1&&vf.v==0){return PLURAL_CATEGORY.ONE;}return PLURAL_CATEGORY.OTHER;}});}]);jqLite(function(){angularInit(window.document,bootstrap);});})(window);!window.angular.$$csp().noInlineStyle&&window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
 
 /***/ },
-/* 15 */
+/* 14 */
 /*!**********************************************************!*\
   !*** ./~/angular-ui-router/release/angular-ui-router.js ***!
   \**********************************************************/
@@ -22805,7 +22804,7 @@
 	})(window, window.angular);
 
 /***/ },
-/* 16 */
+/* 15 */
 /*!*****************************!*\
   !*** ./src/views/home.html ***!
   \*****************************/
@@ -22814,7 +22813,7 @@
 	module.exports = "<div class=\"enter col-sm-10 col-sm-offset-1\">\n    <div><a ui-sref=\"about\">ENTER</a></div>\n</div>\n";
 
 /***/ },
-/* 17 */
+/* 16 */
 /*!**********************************!*\
   !*** ./src/views/portfolio.html ***!
   \**********************************/
@@ -22823,7 +22822,7 @@
 	module.exports = "<div class=\"container col-xs-12 col-sm-10 col-sm-offset-1\">\n    <div class=\"container-fluid\">\n      <p class=\"projdescription col-lg-6 col-xs-12\">\n        <a href=\"http://www.jables.com\"><span>JABLES</span></a>\n        <br>I was approached by Jason Bunnell, an inspirational man, to connect his startup company's web application to AngularJS seeing as how the framework that the app was previously on, Parse, was being eliminated later that month. It was time to act quickly. After removing Parse and integrating Angular, Jason asked if I could take on more of the design role with the application. I noticed a few items that I immediately wanted to correct including the company's pixelated logo and some of the mismatched coloring. After that, I took it upon myself to reconstruct the footer and its links as well as adding a logo for emphasis. Overall, I am pleased with my concepts and am ready for the complete roll out mid-2017. Look out for Jables.\n      </p>\n        <a href=\"../../dist/img/jables_complete.png\"><image class=\"container-fluid col-lg-6 col-xs-12\" src=\"../../dist/img/jables_complete.png\"></a>\n    </div>\n    <div class=\"container-fluid\">\n      <p class=\"projdescription col-lg-6 col-xs-12\">\n        <a href=\"http://159.203.168.135/#/\"><span>VIDMEO</span></a>\n        <br>I was inspired to complete a project that not only took on most of the functionality of an existing site in only 2 weeks, but I wanted to prove that I could replicate it visually. I am confident in my abilities to create structure and design. This project serves as a personal design study and my ability to manipulate the screen exactly as I want.\n      </p>\n        <a href=\"../../dist/img/vidmeo_mockups.png\"><image class=\"container-fluid col-lg-6 col-xs-12\" src=\"../../dist/img/vidmeo_mockups.png\"></a>\n    </div>\n    <div class=\"container-fluid\">\n      <p class=\"projdescription col-lg-6 col-xs-12\">\n        <a href=\"https://juliansruiz.github.io/mountenus/\"><span>MOUNTENUS</span></a>\n        <br>\n        This is a project that stemmed out of wanting to get more creative with design. I created this website to represent a digital wishlist of all the things I want. I call it the \"Christmas List for Adults.\" It was meant to resemble the characteristics of a minimal ecommerce site, but is nowhere near complete. Just another vision for the existing template.\n      </p>\n        <a href=\"../../dist/img/mountenus.png\"><image class=\"container-fluid col-lg-6 col-xs-12\" src=\"../../dist/img/mountenus.png\"></a>\n    </div>\n    <div class=\"container-fluid\">\n      <p class=\"projdescription col-lg-6 col-xs-12\">\n        <a href=\"http://104.236.5.8/#/\"><span>ALIEN HUNT</span></a>\n        <br>I presented the idea of recreating a timeless classic Nintendo video game (Duck Hunt) for a group project at DevMountain. This was a great experience working with others and seeing how different minds come together. I focused on project management ensuring that everyone maintained their responsibilities, added a few animations, as well as the positioning and scaling of nearly everything you see in this game. After researching rendering libraries, I ultimately decided on PixiJS. After only three days of hands on experience, our group was up and running with the beginning bits of a functioning game. I dare you to beat my high score.\n      </p>\n        <a href=\"../../dist/img/alien_hunt.png\"><image class=\"container-fluid col-lg-6 col-xs-12\" src=\"../../dist/img/alien_hunt.png\"></a>\n    </div>\n    <div class=\"printout\"></div>\n</div>\n";
 
 /***/ },
-/* 18 */
+/* 17 */
 /*!********************************!*\
   !*** ./src/views/contact.html ***!
   \********************************/
@@ -22832,7 +22831,7 @@
 	module.exports = "<div class=\"col-sm-10 col-sm-offset-1\">\n  <h3 class=\"create\">LET'S CREATE SOMETHING.</h3>\n    <div class=\"container-fluid contactsheet col-xs-12\">\n        <ul class=\"contactleft col-xs-12 col-xs-offset-1 col-sm-offset-3 col-md-offset-4\">\n            <li><b>Phone:</b> 817.637.6019</li>\n            <li><b>Email:</b> <a href=\"mailto:juliansruiz@gmail.com\">juliansruiz@gmail.com</a></li>\n            <li><b>Location:</b> Dallas, TX</li>\n        </ul>\n        <ul class=\"contactright col-xs-12 col-xs-offset-1 col-sm-offset-3 col-md-offset-4\">\n            <li><h5><strong>Follow Me:</strong></h5></li>\n            <li><a href=\"https://www.linkedin.com/in/juliansruiz/\"><image src=\"../../dist/img/social-011_linkedin.png\" alt=\"LinkedIn\"></a></li>\n            <li><a href=\"https://github.com/JulianSRuiz\"><image src=\"../../dist/img/social-041_github.png\" alt=\"Github\"></a></li>\n            <li><a href=\"http://www.facebook.com/juliansruiz\"><image src=\"../../dist/img/social-006_facebook.png\" alt=\"Facebook\"></a></li>\n            <li><a href=\"http://www.twitter.com/juliansruiz\"><image src=\"../../dist/img/social-003_twitter.png\" alt=\"Twitter\"></a></li>\n        </ul>\n    </div>\n</div>\n";
 
 /***/ },
-/* 19 */
+/* 18 */
 /*!******************************!*\
   !*** ./src/views/about.html ***!
   \******************************/
@@ -22841,7 +22840,7 @@
 	module.exports = "<div class=\"container about col-sm-10 col-sm-offset-1\">\n    <!-- <h2>Hello, I'm Julian.</h2> -->\n    <div>\n        <image class=\"portrait col-lg-3 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1\" src=\"../../dist/img/jr2.jpg\" alt=\"Hi!\">\n          <div class=\"col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1\">\n          <h3>HELLO</h3>\n              <p class=\"aboutparagraph\">After living in Austin for 12 years, I decided the insurance industry is not where I wanted to construct my career so when my girlfriend accepted a transfer to Dallas, I knew I wanted a dramatic change.</p>\n              <p class=\"aboutparagraph\">I attended DevMountain, a coding bootcamp, to learn how to develop web applications utilizing the MEAN Stack (MongoDB, Express, AngularJS, Node.js). I quickly realized that I did not want to build web applications, but rather, I wanted to design them. I am constantly reading and reaching out to the UI Design community to get a better perspective on how I can improve my skills.</p>\n              <p class=\"aboutparagraph\">So here we are. My pursuits and my thirst for knowledge. Thank you.</p>\n            <p class=\"signature\">- Julian</p>\n            </div>\n    </div>\n\n</div>\n";
 
 /***/ },
-/* 20 */
+/* 19 */
 /*!*******************************!*\
   !*** ./src/views/resume.html ***!
   \*******************************/
@@ -22850,7 +22849,7 @@
 	module.exports = "<div class=\"container container-fluid col-sm-10 col-sm-offset-1\">\n    <div>\n        <div class=\"resumeleft col-md-6 col-xs-12\">\n            <h3>EXPERIENCE</h3>\n            <h4><a href=\"http://www.jables.com\">Jables</a></h4>\n            <h5>Front-End Developer/UI Designer; Contract</h5>\n            <p class=\"date\">JAN 2017 - PRESENT</p>\n            <ul class=\"accomplishments\">\n                <li>Overhauled the user interface to refine the existing design and optimize user experience through simplified, cleaner layout</li>\n                <li>Wireframed the User Profile Page in Sketch</li>\n                <li>Researched competitors' navigation and layout for a more comprehensive user story</li>\n                <li>Installed AngularJS replacing the former framework, Parse, to adapt to the elimination of the Parse framework</li>\n                <li>Connected application to Facebook Passport setting up the ability to record users and user data</li>\n            </ul>\n            <h4><a href=\"http://www.marsh.com\">Marsh</a></h4>\n            <h5>Renewal Quality Analyst</h5>\n            <p class=\"date\">DEC 2009 - JUL 2016</p>\n            <ul class=\"accomplishments\">\n                <li>Audited and monitored ad­-hoc and renewal insurance requests to ensure the quality and timeliness of process requirements for multimillion dollar commercial insurance placements</li>\n                <li>Designed and presented enhanced auditing metrics and promoted continuous improvement by collaborating with the internal Training Department</li>\n                <li>Established as the point-­person creating professional relationships with the corporate risk management team for several high profile companies including <a href=\"http://www.redcross.org/\">American National Red Cross</a> and <a href=\"http://http://www.nbcuniversal.com/\">NBCUniversal</a></li>\n                <li>Mentored team members on specialty accounts and trained on­-boarding employees on best practice processes in creating confidential insurance documents</li>\n            </ul>\n            <h3>AWARDS</h3>\n            <ul class=accomplishments>\n                <li>Outstanding Performance in Customer Service, <a href=\"http://www.macys.com\"><i>Macy's</a> 2007</i>\n                </li>\n            </ul>\n\n        </div>\n        <div class=\"resumeright col-md-6 col-xs-12\">\n            <h3>EDUCATION</h3>\n            <h4><a href=\"http://www.utexas.edu\">The University of Texas at Austin</a></h4>\n            <h5>B.A., Mexican-American Studies</h5>\n            <p class=\"date\">JUN 2004 - MAY 2009</p>\n\n            <div class=\"col-md-12 col-sm-6\">\n                <h3>SKILLS</h3>\n                <ul class=\"accomplishments\">\n                    <li>User Interface Design</li>\n                    <li>Web Architecture</li>\n                    <li>Wireframing</li>\n                    <li>Researching Competing User Stories</li>\n                    <li>Project/Team Management</li>\n                    <li>Quality Analysis</li>\n                    <li>Continuous Improvement</li>\n                    <li>Mentoring</li>\n                    <li>Critical Thinking</li>\n                    <li>Customer Service</li>\n                    <li>Multitasking</li>\n                    <li>Organizational</li>\n                </ul>\n            </div>\n            <div class=\"col-md-12 col-sm-6\">\n                <h3>TECHNOLOGIES</h3>\n                <ul class=\"accomplishments\">\n                    <li>HTML5</li>\n                    <li>CSS3</li>\n                    <li>Sketch</li>\n                    <li>AngularJS</li>\n                    <li>Balsamiq</li>\n                    <li>Photoshop</li>\n                    <li>Bootstrap</li>\n                    <li>Microsoft Office</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n    <div class=\"printout col-sm-6 col-sm-offset-5 col-xs-6 col-xs-offset-4\">\n        <a href=\"../../dist/img/julian_resume.pdf\">Printable version</a>\n    </div>\n</div>\n";
 
 /***/ },
-/* 21 */
+/* 20 */
 /*!*************************!*\
   !*** ./src/img/jr2.jpg ***!
   \*************************/
@@ -22859,7 +22858,7 @@
 	module.exports = "data:image/jpeg;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvanIyLmpwZyI7"
 
 /***/ },
-/* 22 */
+/* 21 */
 /*!********************************************!*\
   !*** ./src/img/32/social-011_linkedin.png ***!
   \********************************************/
@@ -22868,7 +22867,7 @@
 	module.exports = "data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvc29jaWFsLTAxMV9saW5rZWRpbi5wbmciOw=="
 
 /***/ },
-/* 23 */
+/* 22 */
 /*!*******************************************!*\
   !*** ./src/img/32/social-003_twitter.png ***!
   \*******************************************/
@@ -22877,7 +22876,7 @@
 	module.exports = "data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvc29jaWFsLTAwM190d2l0dGVyLnBuZyI7"
 
 /***/ },
-/* 24 */
+/* 23 */
 /*!********************************************!*\
   !*** ./src/img/32/social-006_facebook.png ***!
   \********************************************/
@@ -22886,7 +22885,7 @@
 	module.exports = "data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvc29jaWFsLTAwNl9mYWNlYm9vay5wbmciOw=="
 
 /***/ },
-/* 25 */
+/* 24 */
 /*!******************************************!*\
   !*** ./src/img/32/social-041_github.png ***!
   \******************************************/
@@ -22895,7 +22894,7 @@
 	module.exports = "data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvc29jaWFsLTA0MV9naXRodWIucG5nIjs="
 
 /***/ },
-/* 26 */
+/* 25 */
 /*!*********************************!*\
   !*** ./src/img/jables_home.png ***!
   \*********************************/
@@ -22904,7 +22903,7 @@
 	module.exports = "data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvamFibGVzX2hvbWUucG5nIjs="
 
 /***/ },
-/* 27 */
+/* 26 */
 /*!***********************************!*\
   !*** ./src/img/julian_resume.pdf ***!
   \***********************************/
@@ -22913,7 +22912,7 @@
 	module.exports = "data:application/pdf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvanVsaWFuX3Jlc3VtZS5wZGYiOw=="
 
 /***/ },
-/* 28 */
+/* 27 */
 /*!*************************************!*\
   !*** ./src/img/jables_complete.png ***!
   \*************************************/
@@ -22922,7 +22921,7 @@
 	module.exports = "data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvamFibGVzX2NvbXBsZXRlLnBuZyI7"
 
 /***/ },
-/* 29 */
+/* 28 */
 /*!********************************!*\
   !*** ./src/img/alien_hunt.png ***!
   \********************************/
@@ -22931,7 +22930,7 @@
 	module.exports = "data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvYWxpZW5faHVudC5wbmciOw=="
 
 /***/ },
-/* 30 */
+/* 29 */
 /*!*******************************!*\
   !*** ./src/img/mountenus.png ***!
   \*******************************/
@@ -22940,7 +22939,7 @@
 	module.exports = "data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvbW91bnRlbnVzLnBuZyI7"
 
 /***/ },
-/* 31 */
+/* 30 */
 /*!************************************!*\
   !*** ./src/img/vidmeo_mockups.png ***!
   \************************************/
@@ -22949,7 +22948,7 @@
 	module.exports = "data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvdmlkbWVvX21vY2t1cHMucG5nIjs="
 
 /***/ },
-/* 32 */
+/* 31 */
 /*!**************************!*\
   !*** ./src/img/indy.png ***!
   \**************************/
