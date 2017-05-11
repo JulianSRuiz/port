@@ -1,17 +1,17 @@
 //assets
 import 'bootstrap/dist/css/bootstrap.min.css';
-const jr = require('./img/jr2.jpg');
-const linkedIn = require('./img/32/social-011_linkedin.png');
-const twitter = require('./img/32/social-003_twitter.png');
-const fb = require('./img/32/social-006_facebook.png');
-const github = require('./img/32/social-041_github.png');
-const jables = require('./img/jables_home.png');
-const resume = require('./img/julian_resume.pdf');
-const jablesComplete = require('./img/jables_complete.png');
-const alienHunt = require('./img/alien_hunt.png');
-const mountenus = require('./img/mountenus.png');
-const vidmeo = require('./img/vidmeo_mockups.png');
-const indy = require('./img/indy.png');
+require('./img/jr2.jpg');
+require('./img/32/social-011_linkedin.png');
+require('./img/32/social-003_twitter.png');
+require('./img/32/social-006_facebook.png');
+require('./img/32/social-041_github.png');
+require('./img/jables_home.png');
+require('./img/julian_resume.pdf');
+require('./img/jables_complete.png');
+require('./img/alien_hunt.png');
+require('./img/mountenus.png');
+require('./img/vidmeo_mockups.png');
+require('./img/indy.png');
 
 //css
 import './assets/css/stylesheet.css';

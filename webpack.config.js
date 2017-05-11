@@ -20,7 +20,7 @@ module.exports = {
       { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "file-loader?name=img/[name].[ext]" },
       { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file-loader?name=img/[name].[ext]" },
       { test: /\.(woff|woff2)$/, loader:"file-loader?name=img/[name].[ext]" },
-      { test: /\.(png|pdf|jpg|jpe?g|svg|pdf)$/, loader: "url-loader?limit<90000000"},
+      { test: /\.(png|pdf|jpg|jpe?g|svg)$/, loader: "url-loader?limit<90000000"},
       { test: /\.(png|pdf|jpg|jpe?g)$/, loader: 'file-loader?name=img/[name].[ext]'}
     ]
   },

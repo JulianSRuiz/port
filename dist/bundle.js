@@ -83,19 +83,19 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var jr = __webpack_require__(/*! ./img/jr2.jpg */ 20); //assets
+	__webpack_require__(/*! ./img/jr2.jpg */ 20); //assets
 	
-	var linkedIn = __webpack_require__(/*! ./img/32/social-011_linkedin.png */ 21);
-	var twitter = __webpack_require__(/*! ./img/32/social-003_twitter.png */ 22);
-	var fb = __webpack_require__(/*! ./img/32/social-006_facebook.png */ 23);
-	var github = __webpack_require__(/*! ./img/32/social-041_github.png */ 24);
-	var jables = __webpack_require__(/*! ./img/jables_home.png */ 25);
-	var resume = __webpack_require__(/*! ./img/julian_resume.pdf */ 26);
-	var jablesComplete = __webpack_require__(/*! ./img/jables_complete.png */ 27);
-	var alienHunt = __webpack_require__(/*! ./img/alien_hunt.png */ 28);
-	var mountenus = __webpack_require__(/*! ./img/mountenus.png */ 29);
-	var vidmeo = __webpack_require__(/*! ./img/vidmeo_mockups.png */ 30);
-	var indy = __webpack_require__(/*! ./img/indy.png */ 31);
+	__webpack_require__(/*! ./img/32/social-011_linkedin.png */ 21);
+	__webpack_require__(/*! ./img/32/social-003_twitter.png */ 22);
+	__webpack_require__(/*! ./img/32/social-006_facebook.png */ 23);
+	__webpack_require__(/*! ./img/32/social-041_github.png */ 24);
+	__webpack_require__(/*! ./img/jables_home.png */ 25);
+	__webpack_require__(/*! ./img/julian_resume.pdf */ 26);
+	__webpack_require__(/*! ./img/jables_complete.png */ 27);
+	__webpack_require__(/*! ./img/alien_hunt.png */ 28);
+	__webpack_require__(/*! ./img/mountenus.png */ 29);
+	__webpack_require__(/*! ./img/vidmeo_mockups.png */ 30);
+	__webpack_require__(/*! ./img/indy.png */ 31);
 	
 	//css
 	
